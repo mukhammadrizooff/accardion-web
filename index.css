@@ -20,20 +20,18 @@
 .accordion-button:active,
 .accordion-button:focus {
   border: none !important;
-  color: white;
 }
 
 .accordion-button:hover {
   background: #1b489c !important;
-  color: white;
 }
 
 .accordion-button::after {
   content: "";
+  background: #fff;
   transform: scale(1.2);
   border-radius: 3px;
-  transition: 800ms !important;
-  color: white;
+  transition: 1500ms !important;
 }
 
 .xodimlar {
