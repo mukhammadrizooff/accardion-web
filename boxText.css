@@ -1,0 +1,129 @@
+.asosiy-matn {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px !important;
+  margin: 50px auto;
+}
+
+.asosiy-matn-2 {
+  /* padding-left: 5px; */
+  height: 156px;
+}
+
+.listlar-1 {
+  padding-left: 50px;
+  padding-top: 15px;
+  width: 60vh;
+}
+
+.asosiy-title {
+  padding-top: 4%;
+}
+
+.asosiy-title {
+  display: inline;
+}
+
+.asosiy-title-2 {
+  padding: 5px;
+}
+
+.title-2 {
+  font-size: 1.4rem;
+  display: inline;
+  justify-content: center;
+}
+
+.para {
+  display: inline;
+}
+
+.kartinka {
+  float: left;
+  max-width: 100%;
+  max-height: 70%;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.rasm-1 {
+  height: 25vh;
+  width: 25vh;
+}
+
+.rasm {
+  max-width: 35vh;
+  max-height: 35vh;
+  padding: 3px;
+}
+
+.rasm-2 {
+  float: right;
+}
+
+.karta-rasm {
+  border-radius: 50%;
+  height: 200px !important;
+  width: 200px !important;
+  position: relative;
+  left: 9%;
+  top: -70px;
+  object-fit: cover;
+}
+
+.karta {
+  border-radius: 0;
+  cursor: pointer;
+  margin-top: 100px !important;
+}
+.karta:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.karta-body {
+  margin-top: -50px;
+}
+.bi {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .asosiy-matn {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px !important;
+    margin: 50px auto;
+  }
+
+  .asosiy-matn-2 {
+    height: 156px;
+  }
+
+  .rasm-1 {
+    height: 37vh;
+    width: 25vh;
+  }
+
+  .listlar-1 {
+    padding-left: 0;
+    padding-top: 2px;
+    width: 30vh;
+    font-size: 12px;
+  }
+  .karta-rasm {
+    left: 23% !important;
+    right: 25% !important;
+  }
+
+  .asosiy-title {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+  .karta-rasm {
+    left: 4% !important;
+    right: 10% !important;
+  }
+}
