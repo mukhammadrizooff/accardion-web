@@ -25,7 +25,7 @@
 }
 
 .asosiy-title-2 {
-  padding: 5px;
+  padding-left: 30px;
 }
 
 .title-2 {
@@ -55,11 +55,17 @@
 .rasm {
   max-width: 35vh;
   max-height: 35vh;
-  padding: 3px;
 }
 
 .rasm-2 {
   float: right;
+}
+
+.kontent-rasm {
+  display: flex;
+  flex-direction: row;
+  height: 48%;
+  width: 48%;
 }
 
 .karta-rasm {
